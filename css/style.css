@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/btn.css");
+@import url("components/container.css");
+
+a {
+	color: #EDDFE0;
+	text-decoration: none;
+	font-family: "Merriweather", serif;
+	font-weight: 900;
+	font-style: normal;
+	transition: color 0.5s ease;
+}
+body{
+	margin: 0px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	background-color: #0D0D15;
+}
+h1, h2, h3 {
+  color:  #F1F1F2 ;
+}
+h2{
+  margin-left: 20px;
+
+}
+  p {
+  color: #F1F1F2;
+  text-align: center; 
+  font-size: 22px;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+#presentation {
+  font-size: 18px;
+}
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin: 10px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #140A03;
+  }
+
+  .card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  }
+  .card img {
+    width: 150px;
+  }
+  .card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+  .cards {
+    display: flex;
+  	flex-wrap: wrap;
+  }
+  #align-text{
+    text-align: center;
+    margin-bottom: 300px;
+  }
